@@ -33,8 +33,4 @@ python VPD2/refer/my_test.py --dataset refcoco --split val --epochs 1 --workers 
 
 ![Alt Text](https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPDgit.png?raw=true)
 
-Additional Information
-For more information about the implementation or the VPD model itself, consult the paper, "Visual Perception Task," or visit the official project page.
-
-Please note that some paths mentioned above assume Unix-like systems such as Linux or macOS; adjust accordingly for other operating systems. If you encounter any issues while setting up or running the code, feel free to open an issue in the GitHub repository. Happy coding!
 
