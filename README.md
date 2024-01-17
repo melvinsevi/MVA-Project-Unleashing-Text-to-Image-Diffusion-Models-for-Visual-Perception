@@ -4,7 +4,7 @@ This repository contains the code and models for our project, aiming to improve 
 
 ## Setting Up the Environment
 
-Before running the code, create a virtual environment and activate it:
+Before running the code, install the requirements:
 
 ```bash
 
