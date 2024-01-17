@@ -1,0 +1,11 @@
+requests
+filelock
+tqdm
+timm
+ftfy
+regex
+scipy
+scikit-image
+pycocotools==2.0.2
+tokenizers
+h5py
