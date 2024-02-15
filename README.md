@@ -17,6 +17,7 @@ pip install -r requirements.txt
 
 Training the Frozen VPD Model with Added Noise Scale
 Run the following command to start training the frozen VPD model with a specific noise scale value. Note that you can modify the noise scale value directly in the model file within the model_refer folder.
+We choosed the same parameters that we choose for training.
 
 ```bash
 
