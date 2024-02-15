@@ -1,4 +1,4 @@
-# VPD: Visual Perception Task Model with Improved Referring Image Segmentation
+# Referring Image Segmentation via Text-to-Image Diffusion Models
 
 This repository contains the code and models for our project, aiming to improve the referring image segmentation task in the Visual Perception (VP) model. We tried enhance the authors' original model by freezing the stable diffusion module and varying the amount of noise added to the input image. We visualized the attention maps of the model and gave insights on how this model might be improved in future research. This README provides instructions on how to set up and run the code.
 
