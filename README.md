@@ -32,4 +32,4 @@ python VPD2/refer/my_test.py --dataset refcoco --split val --epochs 1 --workers 
 
 ```
 
-![Alt Text](https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPDgit.png?raw=true)
+<img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPDgit.png?raw=true" alt="Alt Text" width="250"/>
