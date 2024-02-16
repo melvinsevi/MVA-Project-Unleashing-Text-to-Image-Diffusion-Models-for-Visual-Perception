@@ -35,3 +35,5 @@ python VPD2/refer/my_test.py --dataset refcoco --split val --epochs 1 --workers 
 <div style="text-align:center;">
     <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPDgit.png?raw=true" alt="Alt Text" width="450"/>
 </div>
+
+We plotted the the attention maps of the model with different number of timesteps.
