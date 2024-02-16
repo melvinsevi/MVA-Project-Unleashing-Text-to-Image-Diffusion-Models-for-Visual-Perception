@@ -10,11 +10,9 @@ Getting Started
 
 To get started, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/VP-Diffusion-Model.git`
+1. Clone the repository: `git clone https://github.com/melvinsevi/VP-Diffusion-Model.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Download the RefCOCO dataset: `curl -O http://msvocds.com/refcoco/download.html`
-
-Note: Make sure to replace `your-username` with your actual GitHub username.
 
 Training the Model
 -----------------
