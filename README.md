@@ -1,41 +1,43 @@
-Referring Image Segmentation via Text-to-Image Diffusion Models
-This repository showcases the code and models used in our project aimed at enhancing the referring image segmentation task in Visual Perception (VP) models. By building upon the authors' original work, we explored two approaches: freezing the stable diffusion module and introducing variable amounts of noise to the input images. Our findings from examining the model's attention maps provide valuable insights for potential improvements in future research.
+# Referring Image Segmentation via Text-to-Image Diffusion Models
 
-Table of Contents
-Setting Up the Environment
+This repository contains the code and models for our project, aiming to improve the referring image segmentation task in the Visual Perception (VP) model. We tried enhance the authors' original model by freezing the stable diffusion module and varying the amount of noise added to the input image. We visualized the attention maps of the model and gave insights on how this model might be improved in future research. This README provides instructions on how to set up and run the code.
+
+## Setting Up the Environment
+
+Before running the code, install the requirements:
+
+```bash
+
+%cd VPD2/refer
+pip install -r requirements.txt
+
+%cd VPD2/stablediffusion
+pip install -r requirements.txt
+```
+
 Training the Frozen VPD Model with Added Noise Scale
+Run the following command to start training the frozen VPD model with a specific noise scale value. Note that you can modify the noise scale value directly in the model file within the model_refer folder.
+We choosed the same parameters that we choose for training.
+
+```bash
+
+python VPD2/refer/my_train.py --dataset refcoco --split val --epochs 1 --batch-size 4 --workers 4 --img_size 512
+```
+
 Running Inference with Specified Checkpoints
-Attention Maps Visualization
-<a name="setting-up"></a> Setting Up the Environment
-To get started, ensure all dependencies are installed:
+After training, perform inference with a specified checkpoint as follows:
 
-$ cd VPD2/refer
-pip install -r requirements.txt
+```bash
+python VPD2/refer/my_test.py --dataset refcoco --split val --epochs 1 --workers 4 --img_size 512
 
-$ cd VPD2/stablediffusion
-pip install -r requirements.txt
-<a name="training"></a> Training the Frozen VPD Model with Added Noise Scale
-Use the following command to train the frozen VPD model with a custom noise scale value. You may adjust the noise scale value directly in the model_refer folder's model file. The provided training parameters remain unchanged.
+```
 
-$ python VPD2/refer/my_train.py \
---dataset refcoco \
---split val \
---epochs 1 \
---batch-size 4 \
---workers 4 \
---img_size 512
-<a name="inferencing"></a> Running Inference with Specified Checkpoints
-Once training is complete, execute inference using a designated checkpoint:
-
-$ python VPD2/refer/my_test.py \
---dataset refcoco \
---split val \
---epochs 1 \
---workers 4 \
---img_size 512
-<a name="attention-maps"></a> Attention Maps Visualization
-Below are the attention maps generated during inference, illustrating the impact of adding different levels of noise to the input image:
-
-<div align="center">
-<img src="VPD2/VPD_img.png" alt="Attention Map Example" width="600">
+<div style="text-align:center;">
+    <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPDgit.png?raw=true" alt="Alt Text" width="450"/>
 </div>
+
+Here is the attention maps obtained in inference, when varying the noise added to the input image of the model:
+
+<div style="text-align:center;">
+    <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPD2/VPD_img.png?raw=true" alt="Alt Text" width="450"/>
+</div> ( I just want to copy and paste into my readme file)
