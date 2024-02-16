@@ -24,8 +24,9 @@ Begin training the frozen VPD model with a specified noise scale value using the
 python VPD2/refer/my_train.py --dataset refcoco --split val --epochs 1 --batch-size 4 --workers 4 --img_size 512
 ```
 
-Running Inference with Specified Checkpoints
-After training, perform inference with a specified checkpoint as follows:
+# Running Inference with Specified Checkpoints
+
+Once training is complete, proceed with performing inference using a specified checkpoint:
 
 ```bash
 python VPD2/refer/my_test.py --dataset refcoco --split val --epochs 1 --workers 4 --img_size 512
