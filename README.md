@@ -4,7 +4,7 @@ Welcome to our project repository! Here, we present our efforts to enhance the r
 
 ## Setting Up the Environment
 
-Before running the code, install the requirements:
+To get started, ensure you have the necessary dependencies installed. Navigate to the respective directories and execute the following commands:
 
 ```bash
 
