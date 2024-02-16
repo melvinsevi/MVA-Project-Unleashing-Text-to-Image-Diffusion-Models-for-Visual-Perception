@@ -33,12 +33,13 @@ python VPD2/refer/my_test.py --dataset refcoco --split val --epochs 1 --workers 
 
 ```
 
+# Visualizing Attention Maps
+
+We provide attention maps obtained during inference, showcasing the impact of varying levels of noise added to the input image on model performance:
+
 <div style="text-align:center;">
-    <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPDgit.png?raw=true" alt="Alt Text" width="450"/>
+    <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPDgit.png?raw=true" alt="Attention Map 1" width="450"/>
 </div>
-
-Here is the attention maps obtained in inference, when varying the noise added to the input image of the model:
-
 <div style="text-align:center;">
-    <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPD2/VPD_img.png?raw=true" alt="Alt Text" width="450"/>
-</div> 
+    <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPD2/VPD_img.png?raw=true" alt="Attention Map 2" width="450"/>
+</div>
