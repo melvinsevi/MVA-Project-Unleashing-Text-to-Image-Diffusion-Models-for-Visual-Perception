@@ -44,3 +44,5 @@ We provide attention maps obtained during inference, showcasing the impact of va
 <div style="text-align:center;">
     <img src="https://github.com/melvinsevi/MVA-Project-Unleashing-Text-to-Image-Diffusion-Models-for-Visual-Perception/blob/main/VPD2/VPD_img.png?raw=true" alt="Alt Text" width="450"/>
 </div> 
+
+With more computational power, we aim to get better results
